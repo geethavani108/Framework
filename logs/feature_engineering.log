@@ -1,0 +1,4 @@
+ERROR:root:Feature engineering failed: name 'MinMaxScaler' is not defined
+INFO:root: Numerical features are scaled
+INFO:root:Target  column added successful
+INFO:root:Feature engineering successful

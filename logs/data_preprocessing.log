@@ -1,0 +1,3 @@
+INFO:root:Encoding all categorical columns successful
+INFO:root:Checked Outliers and removed for Resting BP and cholesterol successful
+INFO:root:Data preprocessing successful

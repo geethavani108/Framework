@@ -1,0 +1,33 @@
+ERROR:root:Feature selection failed: Input X must be non-negative.
+INFO:root:Feature selection successful
+ERROR:root:Feature selection failed: name 'train_test_split' is not defined
+ERROR:root:Feature selection failed: local variable 'feature_importances' referenced before assignment
+ERROR:root:Feature selection failed: local variable 'feature_importances' referenced before assignment
+INFO:root:Feature selection successful
+INFO:root:           Feature  Importance
+10        ST_Slope    0.246225
+9          Oldpeak    0.126460
+2    ChestPainType    0.121171
+7            MaxHR    0.102663
+8   ExerciseAngina    0.088564
+0              Age    0.081366
+4      Cholesterol    0.076626
+3        RestingBP    0.067980
+1              Sex    0.043680
+6       RestingECG    0.035144
+5        FastingBS    0.010122
+INFO:root:Feature selection successful
+INFO:root:Method :3 Feature importances:
+INFO:root:           Feature  Importance
+10        ST_Slope    0.246225
+9          Oldpeak    0.126460
+2    ChestPainType    0.121171
+7            MaxHR    0.102663
+8   ExerciseAngina    0.088564
+0              Age    0.081366
+4      Cholesterol    0.076626
+3        RestingBP    0.067980
+1              Sex    0.043680
+6       RestingECG    0.035144
+5        FastingBS    0.010122
+INFO:root:Feature selection successful

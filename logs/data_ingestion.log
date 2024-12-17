@@ -1,0 +1,3 @@
+INFO:root:Fetching data from URL...
+INFO:root:Data successfully saved to data/raw_data.csv
+INFO:root:Data successfully ingested
