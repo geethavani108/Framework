@@ -1,0 +1,5 @@
+INFO:root:MLflow start run executed
+INFO:root:Grid Search fit run executed
+INFO:root:Best model obtained: RandomForestClassifier(n_estimators=20, random_state=42)
+INFO:root:Mode pickle file is dumped
+INFO:root:Model training successful with accuracy: 0.86
