@@ -9,7 +9,7 @@ from azure.ai.ml.entities import Model
 from azure.ai.ml.constants import AssetTypes
 
 # Configure logging
-logging.basicConfig(filename='logs/model_register.log', level=logging.INFO)
+logging.basicConfig(filename='logs/register_model.log', level=logging.INFO)
 # Authenticate and initialize MLClient
 # change  your credentials
 #***********************************************************************
