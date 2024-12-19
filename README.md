@@ -10,8 +10,9 @@ ml_project/
 │   ├── feature_engineering.log
 │   ├── feature_selection.log
 │   ├── train_model.log
+│   |___register_model.log
 │   ├── deploy_model.log
-│   ├-─ register_model.log
+
 
 ├── models/
 │   ├── model.pkl
