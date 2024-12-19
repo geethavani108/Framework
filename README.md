@@ -11,6 +11,8 @@ ml_project/
 │   ├── feature_selection.log
 │   ├── train_model.log
 │   ├── deploy_model.log
+│   ├-─ register_model.log
+
 ├── models/
 │   ├── model.pkl
 ├── src/
@@ -20,5 +22,6 @@ ml_project/
 │   ├── feature_selection.py
 │   ├── train_model.py
 │   ├── deploy_model.py
+|   |__register_model.py
 │   ├── main.py
 └── requirements.txt
