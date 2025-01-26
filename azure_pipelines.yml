@@ -1,0 +1,26 @@
+# azure-pipelines.yml
+trigger:
+- main
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- task: UsePythonVersion@0
+  inputs:
+    versionSpec: '3.x'
+  displayName: 'Use Python 3.x'
+
+- script: |
+    python -m pip install --upgrade pip
+    pip install -r requirements.txt
+  displayName: 'Install dependencies'
+
+- script: |
+    python src/data_ingestion.py
+    python src/data_preprocessing.py
+    python src/feature_engineering.py
+    python src/feature_selection.py
+    python src/train_model.py
+  displayName: 'Run Data Processing and Training Scripts'
+
